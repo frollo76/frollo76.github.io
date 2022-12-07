@@ -3,7 +3,7 @@
   <head>  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="src/style.css" type="text/css" />
     <title>Momentum App</title>
   </head>
 
@@ -13,11 +13,16 @@
       required
       maxlength="15" type="text" placeholder="What is your name?"/>
       <input name="button" type="submit" value="Log In"/>
-      <div>TEST</div>
-      <div>TEST2</div>
     </form>
 
-    <script src="src/test05.js"></script>
+    <form id="todos-form">
+      <input id="todo" type="text" placeholder="input todo and press enter."/>
+    </form>
+    <ul id="todos-list">
+    </ul>
+
+
+    <script src="src/todos.js"></script>
   </body>
 
 </html>
