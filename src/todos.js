@@ -43,6 +43,7 @@ function paintToDo(newToDo) {
 
     const li = document.createElement("li");
     li.id = newToDo.id;
+    
     li.appendChild(span);
     li.appendChild(button);
 
