@@ -77,6 +77,6 @@ if (savedToDos !== null) {
 }
 
 //-----------------------------------------------------------------------------
-// http://api.openweathermap.org/geo/1.0/reverse?lat={lat}&lon={lon}&limit={limit}&appid=b599d11582a9d3b1f4cb3d25513de84a
+// http://api.openweathermap.org/geo/1.0/reverse?lat={lat}&lon={lon}&limit={limit}&appid={apikey}
 
 
