@@ -20,22 +20,3 @@ function onWindowResize() {
 
 onWindowResize();
 window.addEventListener("resize", onWindowResize);
-
-function onSubmit(event){
-
-    const name = localStorage.getItem("name");
-
-    if (name === null){
-        console.log("name s null");
-        localStorage.setItem("name", "frollo");
-    }else{
-        console.log(`hello ${name}`);
-    }
-
-    event.preventDefault();
-    console.log("submit");
-}
-
-const loginForm = document.querySelector("#login-form");
-
-loginForm.addEventListener("submit", onSubmit);

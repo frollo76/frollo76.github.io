@@ -77,7 +77,4 @@ if (savedToDos !== null) {
     toDos.forEach(paintToDo);
 }
 
-//-----------------------------------------------------------------------------
-// http://api.openweathermap.org/geo/1.0/reverse?lat={lat}&lon={lon}&limit={limit}&appid={apikey}
-
 

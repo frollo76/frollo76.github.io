@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="src/style.css" type="text/css" />
-    <title>Momentum App</title>
-  </head>
 
-  <body>
-    <form id="login-form">
-      <input 
-      required
-      maxlength="15" type="text" placeholder="What is your name?"/>
-      <input name="button" type="submit" value="Log In"/>
-    </form>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="src/style.css" type="text/css" />
+  <title>Momentum App</title>
+</head>
 
-    <form id="todos-form">
-      <input id="todo" type="text" placeholder="input todo and press enter."/>
-    </form>
+<body>
+  <div id="clock">dadas</div>
+  <form id="login-form">
+    <input required maxlength="15" type="text" placeholder="What is your name?" />
+    <input name="button" type="submit" value="Log In" />
+  </form>
+
+  <form id="todos-form">
+    <input id="todo" type="text" placeholder="input todo and press enter." />
+  </form>
+  <div id="todos-div">
     <ul id="todos-list">
     </ul>
+  </div>
 
+  <script src="src/clock.js"></script>
+  <script src="src/greetings.js"></script>
+  <script src="src/todos.js"></script>
 
-    <script src="src/todos.js"></script>
-  </body>
+</body>
 
 </html>
